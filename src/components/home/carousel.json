@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "classes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::class.class"
+    }
+  }
+}
