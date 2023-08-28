@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_hero_components",
+  "info": {
+    "singularName": "home-hero-component",
+    "pluralName": "home-hero-components",
+    "displayName": "HomeHeroComponent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "btn_text": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "background_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "video_asset": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
